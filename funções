@@ -1,0 +1,36 @@
+//exercicios 1 
+/* o codigo vai apresentar um erro no console porque a 
+função não esta definida*/
+
+/*se eu retirasse os dois console.log e apenas invocar as funções minhaFuncao(2) e 
+minhaFuncao(10)nada apareceria no console,isso porque os console.log são os responsaveis
+por imprimir algo no console mas se eu não os utilizar nenhum resultado sera mostrado,
+dessa forma as funções seriam executadas,mas o resultado não seria visivel no console*/
+
+/* essa funçao recebe um texto inserido pelo usuario por meio de prompt e armazena 
+na variavel textoDoUsuario e define uma função chamada outraFuncao que recebe um parametro 
+texto dentro dessa funçao o txto vai ser convertido para letras minusculas usando o metodo toLowerCase()
+e e verificado se ele inclui a palavra "cenoura" usando o metodo includes()*/
+
+/* a utilidade da funçao e verificar se o texto inserido pelo usuario contem a palavra "cenoura",se ela esta 
+incluida a funçao retorna true,indicando que a palavra foi encontrada mais se nao for encontrada retorna false*/
+
+//exercicio 2
+/*
+function imprimeInformaçao();{
+nome = "isaias"
+idade = 16
+cidade = "sao leopoldo"
+profissão = "estudante"
+
+print("eu sou", nome + ",tenho", idade, "anos,moro em", cidade + ", eu sou", profissão + ".")
+}
+imprimeInformaçao()*/
+
+//b)
+/*
+function unificarInformacoes(nome, idade, cidade, profissao) {
+  return nome, idade, cidade, profissao  
+}
+const mensagem = unificarInformacoes("Isaias Virriel", 16, "sao leopoldo","estudante");
+console.log(mensagem)*/
